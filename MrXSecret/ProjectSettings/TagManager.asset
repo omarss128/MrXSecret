@@ -47,6 +47,9 @@ TagManager:
   - name: Platform
     uniqueID: 3702126193
     locked: 0
+  - name: Boat
+    uniqueID: 3289894091
+    locked: 0
   - name: Detective
     uniqueID: 1642027329
     locked: 0

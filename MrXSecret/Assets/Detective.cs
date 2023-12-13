@@ -66,9 +66,9 @@ public class Detective : MonoBehaviour
                 isFacingRight = true; //w b5ly isFacingRight b true
             }
         }
-        anim.SetBool("Grounded", grounded); //check if grounded true or falce, true: state Idel, false: state jump
+        anim.SetBool("grounded", grounded); //check if grounded true or falce, true: state Idel, false: state jump
 
-        anim.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x)); //bna5od el velocity bta3t el player w nohtha f el speed
+        anim.SetFloat("speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x)); //bna5od el velocity bta3t el player w nohtha f el speed
 
     }
     void FixedUpdate()
