@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-public class Obstacles : MonoBehaviour
+public class Fire_Obstacle_1 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
