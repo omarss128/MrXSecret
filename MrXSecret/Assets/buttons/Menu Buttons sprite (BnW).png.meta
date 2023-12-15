@@ -1,0 +1,1011 @@
+fileFormatVersion: 2
+guid: 2a91bd5707482fa41b8836bbd2016dcd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 601
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a338a6c47abe534986123356984ce82
+      internalID: -1411143067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 601
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470225dd0f85bde40b74562f541d8442
+      internalID: -2083504799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 833
+        width: 601
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb128b878e2b494f8de83fa1a5e9458
+      internalID: -1560848972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 601
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2a49f1c3f4639468b135f8d9acdeff
+      internalID: -1953255612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 625
+        width: 602
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d31921778c5f545baac27a2a1fb45e
+      internalID: -956384702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_5
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 416
+        width: 602
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d91b63b57bc874984d3fa5fbde18fc
+      internalID: 804623454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 225
+        width: 1671
+        height: 809
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -835.2925, y: -218.54034}
+        - {x: -835.2925, y: -404.41547}
+        - {x: -232.15868, y: -404.41547}
+        - {x: -232.15868, y: -231.89664}
+        - {x: -246.62498, y: -218.54034}
+      - - {x: -228.8203, y: -218.54034}
+        - {x: -228.8203, y: -403.30243}
+        - {x: -227.7075, y: -404.41547}
+        - {x: 375.4263, y: -404.41547}
+        - {x: 375.4263, y: -236.34874}
+        - {x: 365.41116, y: -218.54034}
+      - - {x: 380.99026, y: -218.54034}
+        - {x: 380.99026, y: -396.6243}
+        - {x: 382.10306, y: -404.41547}
+        - {x: 584.63135, y: -404.41547}
+        - {x: 584.63135, y: -233.00966}
+        - {x: 580.1802, y: -218.54034}
+      - - {x: 591.3081, y: -218.54034}
+        - {x: 591.3081, y: -403.30243}
+        - {x: 592.4209, y: -404.41547}
+        - {x: 794.9493, y: -404.41547}
+        - {x: 794.9493, y: -229.6706}
+        - {x: 779.3702, y: -218.54034}
+      - - {x: -513.6953, y: -329.8428}
+        - {x: -514.8081, y: -328.7298}
+        - {x: -514.8081, y: -320.9386}
+        - {x: -513.6953, y: -319.8256}
+        - {x: -513.6953, y: -310.9214}
+        - {x: -512.5825, y: -309.80838}
+        - {x: -512.5825, y: -299.79114}
+        - {x: -509.24414, y: -304.24326}
+        - {x: -503.68018, y: -303.13022}
+        - {x: -502.56738, y: -304.24326}
+        - {x: -497.00342, y: -304.24326}
+        - {x: -495.89062, y: -305.35626}
+        - {x: -491.43945, y: -305.35626}
+        - {x: -491.43945, y: -328.7298}
+        - {x: -494.77783, y: -330.95584}
+        - {x: -502.56738, y: -330.95584}
+        - {x: -504.79297, y: -332.06885}
+        - {x: -507.01855, y: -330.95584}
+        - {x: -511.46973, y: -335.40793}
+        - {x: -513.6953, y: -335.40793}
+      - - {x: 76.08498, y: -333.1819}
+        - {x: 60.50588, y: -318.71255}
+        - {x: 68.295425, y: -310.9214}
+        - {x: 73.85939, y: -304.24326}
+        - {x: 76.08498, y: -299.79114}
+        - {x: 80.53615, y: -299.79114}
+        - {x: 90.551285, y: -298.67813}
+        - {x: 91.66408, y: -299.79114}
+        - {x: 98.340836, y: -304.24326}
+        - {x: 99.45363, y: -309.80838}
+        - {x: 100.56642, y: -310.9214}
+        - {x: 100.56642, y: -330.95584}
+        - {x: 96.11525, y: -335.40793}
+        - {x: 89.43849, y: -334.29492}
+      - - {x: -550.4175, y: -328.7298}
+        - {x: -553.75586, y: -328.7298}
+        - {x: -555.98145, y: -325.39072}
+        - {x: -559.3198, y: -324.27768}
+        - {x: -563.771, y: -324.27768}
+        - {x: -565.9966, y: -325.39072}
+        - {x: -565.9966, y: -317.59955}
+        - {x: -564.8838, y: -316.4865}
+        - {x: -564.8838, y: -305.35626}
+        - {x: -561.5454, y: -303.13022}
+        - {x: -555.98145, y: -303.13022}
+        - {x: -552.64307, y: -299.79114}
+        - {x: -548.1919, y: -300.90417}
+        - {x: -540.40234, y: -300.90417}
+        - {x: -538.17676, y: -302.01718}
+        - {x: -537.06396, y: -300.90417}
+        - {x: -538.17676, y: -332.06885}
+        - {x: -544.8535, y: -333.1819}
+        - {x: -544.8535, y: -332.06885}
+      - - {x: 125.047874, y: -315.3735}
+        - {x: 123.93508, y: -307.5823}
+        - {x: 128.38625, y: -308.69534}
+        - {x: 128.38625, y: -310.9214}
+        - {x: 131.72462, y: -314.26047}
+        - {x: 132.83742, y: -314.26047}
+        - {x: 131.72462, y: -320.9386}
+        - {x: 131.72462, y: -325.39072}
+        - {x: 125.047874, y: -325.39072}
+        - {x: 123.93508, y: -326.50372}
+        - {x: 125.047874, y: -326.50372}
+      - - {x: 29.347673, y: -318.71255}
+        - {x: 29.347673, y: -313.14743}
+        - {x: 28.23488, y: -313.14743}
+        - {x: 32.686054, y: -317.59955}
+        - {x: 29.347673, y: -320.9386}
+        - {x: 30.460466, y: -320.9386}
+        - {x: 30.460466, y: -319.8256}
+      - - {x: -835.2925, y: -10.404716}
+        - {x: -835.2925, y: -195.16682}
+        - {x: -834.1797, y: -214.08824}
+        - {x: -232.15868, y: -214.08824}
+        - {x: -232.15868, y: -20.421938}
+        - {x: -246.62498, y: -10.404716}
+      - - {x: -228.8203, y: -10.404716}
+        - {x: -228.8203, y: -200.73195}
+        - {x: -218.80516, y: -214.08824}
+        - {x: 375.4263, y: -214.08824}
+        - {x: 375.4263, y: -21.534964}
+        - {x: 363.18558, y: -10.404716}
+      - - {x: 380.99026, y: -10.404716}
+        - {x: 380.99026, y: -202.958}
+        - {x: 392.1182, y: -214.08824}
+        - {x: 584.63135, y: -214.08824}
+        - {x: 584.63135, y: -20.421938}
+        - {x: 570.16504, y: -10.404716}
+      - - {x: 591.3081, y: -10.404716}
+        - {x: 591.3081, y: -196.27985}
+        - {x: 597.98486, y: -214.08824}
+        - {x: 794.9493, y: -214.08824}
+        - {x: 794.9493, y: -27.100086}
+        - {x: 790.4981, y: -10.404716}
+      - - {x: -531.5, y: -125.046265}
+        - {x: -540.40234, y: -123.933235}
+        - {x: -542.6279, y: -126.15929}
+        - {x: -547.0791, y: -122.82021}
+        - {x: -551.5303, y: -120.59416}
+        - {x: -553.75586, y: -120.59416}
+        - {x: -553.75586, y: -99.44669}
+        - {x: -534.8384, y: -99.44669}
+        - {x: -530.3872, y: -96.10762}
+        - {x: -528.1616, y: -91.65552}
+        - {x: -527.0488, y: -91.65552}
+        - {x: -527.0488, y: -101.672745}
+        - {x: -525.93604, y: -102.78577}
+        - {x: -524.82324, y: -127.27231}
+        - {x: -525.93604, y: -126.15929}
+      - - {x: 77.19777, y: -126.15929}
+        - {x: 78.31056, y: -109.46391}
+        - {x: 77.19777, y: -108.35089}
+        - {x: 77.19777, y: -93.88157}
+        - {x: 76.08498, y: -92.76855}
+        - {x: 77.19777, y: -91.65552}
+        - {x: 81.64894, y: -91.65552}
+        - {x: 82.761734, y: -90.542496}
+        - {x: 90.551285, y: -90.542496}
+        - {x: 91.66408, y: -91.65552}
+        - {x: 92.77687, y: -91.65552}
+        - {x: 90.551285, y: -96.10762}
+        - {x: 90.551285, y: -101.672745}
+        - {x: 89.43849, y: -102.78577}
+        - {x: 89.43849, y: -107.23787}
+        - {x: 88.3257, y: -108.35089}
+        - {x: 88.3257, y: -126.15929}
+        - {x: 89.43849, y: -127.27231}
+        - {x: 84.98732, y: -127.27231}
+        - {x: 82.761734, y: -126.15929}
+      - - {x: -504.79297, y: -119.48114}
+        - {x: -505.90576, y: -116.14207}
+        - {x: -504.79297, y: -115.02904}
+        - {x: -505.90576, y: -111.689964}
+        - {x: -504.79297, y: -110.57694}
+        - {x: -503.68018, y: -96.10762}
+        - {x: -497.00342, y: -96.10762}
+        - {x: -495.89062, y: -97.22064}
+        - {x: -491.43945, y: -97.22064}
+        - {x: -491.43945, y: -120.59416}
+        - {x: -494.77783, y: -122.82021}
+        - {x: -502.56738, y: -122.82021}
+        - {x: -504.79297, y: -123.933235}
+      - - {x: 108.35597, y: -120.59416}
+        - {x: 107.24318, y: -119.48114}
+        - {x: 107.24318, y: -113.916016}
+        - {x: 108.35597, y: -112.80299}
+        - {x: 108.35597, y: -106.12484}
+        - {x: 109.468765, y: -105.01182}
+        - {x: 109.468765, y: -102.78577}
+        - {x: 111.69435, y: -99.44669}
+        - {x: 113.91994, y: -99.44669}
+        - {x: 117.258316, y: -97.22064}
+        - {x: 119.4839, y: -99.44669}
+        - {x: 128.38625, y: -99.44669}
+        - {x: 128.38625, y: -102.78577}
+        - {x: 131.72462, y: -106.12484}
+        - {x: 132.83742, y: -106.12484}
+        - {x: 133.95021, y: -107.23787}
+        - {x: 133.95021, y: -109.46391}
+        - {x: 131.72462, y: -112.80299}
+        - {x: 131.72462, y: -117.25509}
+        - {x: 129.49904, y: -117.25509}
+        - {x: 128.38625, y: -118.36811}
+        - {x: 119.4839, y: -118.36811}
+        - {x: 117.258316, y: -120.59416}
+        - {x: 115.03273, y: -120.59416}
+        - {x: 111.69435, y: -122.82021}
+        - {x: 108.35597, y: -122.82021}
+      - - {x: 47.152363, y: -116.14207}
+        - {x: 43.813984, y: -116.14207}
+        - {x: 41.588398, y: -118.36811}
+        - {x: 38.25002, y: -117.25509}
+        - {x: 33.798847, y: -117.25509}
+        - {x: 31.57326, y: -115.02904}
+        - {x: 30.460466, y: -110.57694}
+        - {x: 29.347673, y: -109.46391}
+        - {x: 29.347673, y: -106.12484}
+        - {x: 32.686054, y: -102.78577}
+        - {x: 36.024433, y: -103.898796}
+        - {x: 38.25002, y: -103.898796}
+        - {x: 41.588398, y: -100.559715}
+        - {x: 41.588398, y: -98.33367}
+        - {x: 43.813984, y: -96.10762}
+        - {x: 44.926777, y: -96.10762}
+        - {x: 47.152363, y: -93.88157}
+        - {x: 48.265156, y: -94.9946}
+        - {x: 51.603535, y: -94.9946}
+        - {x: 54.941914, y: -91.65552}
+        - {x: 54.941914, y: -100.559715}
+        - {x: 53.82912, y: -101.672745}
+        - {x: 53.82912, y: -120.59416}
+      - - {x: -577.1245, y: -105.01182}
+        - {x: -576.0117, y: -105.01182}
+        - {x: -574.8989, y: -103.898796}
+        - {x: -574.8989, y: -116.14207}
+        - {x: -576.0117, y: -115.02904}
+      - - {x: -835.2925, y: 198.84393}
+        - {x: -835.2925, y: -4.8395925}
+        - {x: -232.15868, y: -4.8395925}
+        - {x: -232.15868, y: 184.3746}
+        - {x: -241.06102, y: 198.84393}
+      - - {x: -228.8203, y: 198.84393}
+        - {x: -228.8203, y: 1.8385559}
+        - {x: -225.48192, y: -4.8395925}
+        - {x: 375.4263, y: -4.8395925}
+        - {x: 375.4263, y: 183.26158}
+        - {x: 359.8472, y: 198.84393}
+      - - {x: 380.99026, y: 198.84393}
+        - {x: 380.99026, y: 11.855779}
+        - {x: 385.44144, y: 1.8385559}
+        - {x: 395.45657, y: -4.8395925}
+        - {x: 584.63135, y: -4.8395925}
+        - {x: 584.63135, y: 186.60066}
+        - {x: 573.5034, y: 198.84393}
+      - - {x: 591.3081, y: 198.84393}
+        - {x: 591.3081, y: -4.8395925}
+        - {x: 794.9493, y: -4.8395925}
+        - {x: 794.9493, y: 183.26158}
+        - {x: 790.4981, y: 198.84393}
+      - - {x: -531.5, y: 84.202385}
+        - {x: -535.9512, y: 84.202385}
+        - {x: -535.9512, y: 108.68893}
+        - {x: -537.06396, y: 112.028}
+        - {x: -531.5, y: 109.801956}
+        - {x: -525.93604, y: 109.801956}
+        - {x: -517.0337, y: 117.593124}
+        - {x: -510.35693, y: 114.25405}
+        - {x: -510.35693, y: 108.68893}
+        - {x: -509.24414, y: 107.575905}
+        - {x: -509.24414, y: 90.88053}
+        - {x: -510.35693, y: 89.76751}
+        - {x: -511.46973, y: 81.97633}
+        - {x: -527.0488, y: 81.97633}
+        - {x: -528.1616, y: 83.08936}
+      - - {x: 54.941914, y: 91.99356}
+        - {x: 57.1675, y: 98.67171}
+        - {x: 57.1675, y: 104.23683}
+        - {x: 53.82912, y: 107.575905}
+        - {x: 48.265156, y: 109.801956}
+        - {x: 41.588398, y: 109.801956}
+        - {x: 44.926777, y: 113.14103}
+        - {x: 51.603535, y: 114.25405}
+        - {x: 56.054707, y: 116.4801}
+        - {x: 69.40822, y: 115.36708}
+        - {x: 76.08498, y: 115.36708}
+        - {x: 78.31056, y: 117.593124}
+        - {x: 78.31056, y: 83.08936}
+        - {x: 74.97218, y: 84.202385}
+        - {x: 67.18263, y: 85.31541}
+        - {x: 63.844257, y: 84.202385}
+      - - {x: 99.45363, y: 86.42844}
+        - {x: 100.56642, y: 88.65449}
+        - {x: 99.45363, y: 89.76751}
+        - {x: 99.45363, y: 98.67171}
+        - {x: 98.340836, y: 98.67171}
+        - {x: 103.9048, y: 93.10658}
+        - {x: 103.9048, y: 91.99356}
+        - {x: 109.468765, y: 85.31541}
+        - {x: 100.56642, y: 85.31541}
+        - {x: 98.340836, y: 83.08936}
+        - {x: 99.45363, y: 83.08936}
+      - - {x: -489.21387, y: 110.91498}
+        - {x: -486.98828, y: 109.801956}
+        - {x: -478.08594, y: 107.575905}
+        - {x: -478.08594, y: 105.34985}
+        - {x: -474.74756, y: 102.01078}
+        - {x: -473.63477, y: 103.1238}
+        - {x: -473.63477, y: 93.10658}
+        - {x: -476.97314, y: 91.99356}
+        - {x: -483.6499, y: 90.88053}
+        - {x: -488.10107, y: 89.76751}
+        - {x: -489.21387, y: 88.65449}
+      - - {x: -559.3198, y: 93.10658}
+        - {x: -562.6582, y: 93.10658}
+        - {x: -564.8838, y: 90.88053}
+        - {x: -569.33496, y: 91.99356}
+        - {x: -576.0117, y: 94.219604}
+        - {x: -577.1245, y: 103.1238}
+        - {x: -572.67334, y: 107.575905}
+        - {x: -573.78613, y: 107.575905}
+        - {x: -570.44775, y: 104.23683}
+        - {x: -569.33496, y: 104.23683}
+        - {x: -565.9966, y: 107.575905}
+        - {x: -565.9966, y: 109.801956}
+        - {x: -557.09424, y: 109.801956}
+        - {x: -557.09424, y: 106.46288}
+        - {x: -555.98145, y: 105.34985}
+        - {x: -555.98145, y: 95.332634}
+        - {x: -557.09424, y: 94.219604}
+        - {x: -555.98145, y: 89.76751}
+        - {x: -555.98145, y: 90.88053}
+      - - {x: 130.61183, y: 96.445656}
+        - {x: 123.93508, y: 102.01078}
+        - {x: 123.93508, y: 103.1238}
+        - {x: 113.91994, y: 113.14103}
+        - {x: 113.91994, y: 112.028}
+        - {x: 115.03273, y: 110.91498}
+        - {x: 118.37111, y: 110.91498}
+        - {x: 119.4839, y: 109.801956}
+        - {x: 125.047874, y: 109.801956}
+        - {x: 126.16067, y: 108.68893}
+        - {x: 128.38625, y: 108.68893}
+        - {x: 128.38625, y: 106.46288}
+        - {x: 131.72462, y: 103.1238}
+        - {x: 131.72462, y: 91.99356}
+        - {x: 131.72462, y: 93.10658}
+      - - {x: -835.2925, y: 404.5}
+        - {x: -835.2925, y: 216.65233}
+        - {x: -831.9541, y: 203.29604}
+        - {x: -232.15868, y: 203.29604}
+        - {x: -232.15868, y: 389.17117}
+        - {x: -241.06102, y: 404.5}
+      - - {x: -228.8203, y: 404.5}
+        - {x: -228.8203, y: 203.29604}
+        - {x: 375.4263, y: 203.29604}
+        - {x: 375.4263, y: 390.28418}
+        - {x: 363.18558, y: 404.5}
+      - - {x: 380.99026, y: 404.5}
+        - {x: 380.99026, y: 216.65233}
+        - {x: 391.0054, y: 203.29604}
+        - {x: 584.63135, y: 203.29604}
+        - {x: 584.63135, y: 393.62326}
+        - {x: 574.6162, y: 404.5}
+      - - {x: 594.5, y: 404.5}
+        - {x: 591.3081, y: 225.55652}
+        - {x: 593.5337, y: 217.76535}
+        - {x: 597.98486, y: 207.74812}
+        - {x: 605.7744, y: 203.29604}
+        - {x: 794.9493, y: 203.29604}
+        - {x: 794.9493, y: 403.64047}
+        - {x: 787.1597, y: 404.5}
+      - - {x: 61.61867, y: 292.338}
+        - {x: 59.393085, y: 294.56406}
+        - {x: 58.280293, y: 294.56406}
+        - {x: 58.280293, y: 312.37247}
+        - {x: 56.054707, y: 315.71152}
+        - {x: 56.054707, y: 317.9376}
+        - {x: 57.1675, y: 319.0506}
+        - {x: 57.1675, y: 324.61572}
+        - {x: 69.40822, y: 323.50272}
+        - {x: 70.52101, y: 324.61572}
+        - {x: 71.633804, y: 323.50272}
+        - {x: 76.08498, y: 323.50272}
+        - {x: 78.31056, y: 325.72876}
+        - {x: 81.64894, y: 325.72876}
+        - {x: 83.87453, y: 326.84177}
+        - {x: 84.98732, y: 325.72876}
+        - {x: 88.3257, y: 326.84177}
+        - {x: 86.10011, y: 324.61572}
+        - {x: 86.10011, y: 322.38968}
+        - {x: 78.31056, y: 307.92035}
+        - {x: 76.08498, y: 304.58127}
+        - {x: 76.08498, y: 303.46826}
+        - {x: 72.7466, y: 299.01614}
+        - {x: 72.7466, y: 295.6771}
+        - {x: 71.633804, y: 292.338}
+        - {x: 67.18263, y: 293.45102}
+        - {x: 64.95705, y: 291.22498}
+        - {x: 62.731464, y: 292.338}
+      - - {x: -511.46973, y: 309.0334}
+        - {x: -511.46973, y: 313.48547}
+        - {x: -519.2593, y: 326.84177}
+        - {x: -513.6953, y: 325.72876}
+        - {x: -509.24414, y: 321.27664}
+        - {x: -500.3418, y: 321.27664}
+        - {x: -499.229, y: 320.16364}
+        - {x: -494.77783, y: 319.0506}
+        - {x: -493.66504, y: 320.16364}
+        - {x: -489.21387, y: 317.9376}
+        - {x: -482.5371, y: 317.9376}
+        - {x: -481.42432, y: 316.82455}
+        - {x: -481.42432, y: 304.58127}
+        - {x: -482.5371, y: 303.46826}
+        - {x: -482.5371, y: 299.01614}
+        - {x: -488.10107, y: 297.90314}
+        - {x: -490.32666, y: 295.6771}
+        - {x: -497.00342, y: 294.56406}
+        - {x: -498.1162, y: 293.45102}
+        - {x: -499.229, y: 294.56406}
+        - {x: -501.4546, y: 293.45102}
+        - {x: -503.68018, y: 293.45102}
+      - - {x: 100.56642, y: 300.12918}
+        - {x: 102.79201, y: 303.46826}
+        - {x: 102.79201, y: 307.92035}
+        - {x: 105.01759, y: 311.25943}
+        - {x: 105.01759, y: 314.5985}
+        - {x: 107.24318, y: 316.82455}
+        - {x: 106.13039, y: 319.0506}
+        - {x: 105.01759, y: 317.9376}
+        - {x: 109.468765, y: 313.48547}
+        - {x: 109.468765, y: 310.1464}
+        - {x: 111.69435, y: 306.80734}
+        - {x: 112.807144, y: 300.12918}
+        - {x: 113.91994, y: 299.01614}
+        - {x: 115.03273, y: 295.6771}
+        - {x: 111.69435, y: 295.6771}
+        - {x: 110.58156, y: 294.56406}
+        - {x: 99.45363, y: 293.45102}
+        - {x: 100.56642, y: 294.56406}
+      - - {x: -576.0117, y: 301.24222}
+        - {x: -577.1245, y: 311.25943}
+        - {x: -572.67334, y: 315.71152}
+        - {x: -573.78613, y: 315.71152}
+        - {x: -570.44775, y: 312.37247}
+        - {x: -569.33496, y: 312.37247}
+        - {x: -565.9966, y: 315.71152}
+        - {x: -565.9966, y: 317.9376}
+        - {x: -561.5454, y: 321.27664}
+        - {x: -560.4326, y: 322.38968}
+        - {x: -560.4326, y: 321.27664}
+        - {x: -567.1094, y: 312.37247}
+        - {x: -571.56055, y: 300.12918}
+        - {x: -573.78613, y: 301.24222}
+      - - {x: -547.0791, y: 301.24222}
+        - {x: -544.8535, y: 302.35522}
+        - {x: -541.51514, y: 310.1464}
+        - {x: -541.51514, y: 312.37247}
+        - {x: -538.17676, y: 317.9376}
+        - {x: -538.17676, y: 321.27664}
+        - {x: -538.17676, y: 314.5985}
+        - {x: -533.7256, y: 305.6943}
+        - {x: -532.6128, y: 301.24222}
+        - {x: -538.17676, y: 301.24222}
+        - {x: -539.28955, y: 300.12918}
+        - {x: -540.40234, y: 301.24222}
+      - - {x: 31.57326, y: 301.24222}
+        - {x: 31.57326, y: 304.58127}
+        - {x: 29.347673, y: 307.92035}
+        - {x: 30.460466, y: 311.25943}
+        - {x: 33.798847, y: 314.5985}
+        - {x: 36.024433, y: 311.25943}
+        - {x: 36.024433, y: 306.80734}
+        - {x: 34.91164, y: 305.6943}
+        - {x: 34.91164, y: 300.12918}
+        - {x: 32.686054, y: 301.24222}
+      - - {x: 131.72462, y: 305.6943}
+        - {x: 131.72462, y: 307.92035}
+        - {x: 130.61183, y: 309.0334}
+        - {x: 130.61183, y: 313.48547}
+        - {x: 128.38625, y: 316.82455}
+        - {x: 128.38625, y: 314.5985}
+        - {x: 132.83742, y: 310.1464}
+        - {x: 132.83742, y: 304.58127}
+        - {x: 131.72462, y: 303.46826}
+        - {x: 132.83742, y: 301.24222}
+        - {x: 133.95021, y: 302.35522}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55933750a61a1e46a7665211e49fc8c
+      internalID: 1833839891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 208
+        width: 602
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3a4452ea243a5498e46d31873bdff0
+      internalID: 2111675147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 416
+        width: 603
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90061ad8831699845b306764c220bdcd
+      internalID: 1245389440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_9
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 208
+        width: 603
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f44e2801ac30649bfe681671d66c53
+      internalID: -1555525189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_10
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 625
+        width: 603
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c041ce642c34b6446988b218539cca19
+      internalID: 500340517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_11
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 208
+        width: 203
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e0bc1bd64970c43aa0764ea6c0f72b
+      internalID: -34769358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_12
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 625
+        width: 203
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c23dc737157cd34dab344366d5f7cc7
+      internalID: -741406302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_13
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 416
+        width: 203
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d75b91bfc2f9ed459a6f852d57ad6f0
+      internalID: -2104932170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_14
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 416
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647b8e68f84aeb4495813a99f5fcd10
+      internalID: 41103173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_15
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 625
+        width: 202
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f0267babacb984b8af390eff074903
+      internalID: -2089504069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_16
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 208
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbc175179b32d844bcd19babc663d85
+      internalID: -1537928067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 601
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba984038fff3ebc4381c390e3fe4ba7b
+      internalID: -841818748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Buttons sprite (BnW)_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 1671
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e0788e03887804a99a8c2cb2339262
+      internalID: 1578571233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Menu Buttons sprite (BnW)_4: -956384702
+      Menu Buttons sprite (BnW)_9: -1555525189
+      Menu Buttons sprite (BnW)_0: -1411143067
+      Menu Buttons sprite (BnW)_6: 1833839891
+      Menu Buttons sprite (BnW)_8: 1245389440
+      Menu Buttons sprite (BnW)_15: -2089504069
+      Menu Buttons sprite (BnW)_12: -741406302
+      Menu Buttons sprite (BnW)_18: 1578571233
+      Menu Buttons sprite (BnW)_11: -34769358
+      Menu Buttons sprite (BnW)_1: -2083504799
+      Menu Buttons sprite (BnW)_16: -1537928067
+      Menu Buttons sprite (BnW)_2: -1560848972
+      Menu Buttons sprite (BnW)_5: 804623454
+      Menu Buttons sprite (BnW)_14: 41103173
+      Menu Buttons sprite (BnW)_10: 500340517
+      Menu Buttons sprite (BnW)_7: 2111675147
+      Menu Buttons sprite (BnW)_17: -841818748
+      Menu Buttons sprite (BnW)_3: -1953255612
+      Menu Buttons sprite (BnW)_13: -2104932170
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

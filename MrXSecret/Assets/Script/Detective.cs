@@ -10,6 +10,9 @@ public class Detective : MonoBehaviour
 
     public float moveSpeed; 
     public float jumpHeight; //how hight the character jump
+    public KeyCode Return;
+    public Transform FirePoint;
+    public GameObject Bullet;
 
     public bool isFacingRight; //check if the character facing right
     public KeyCode Spacebar; //character will jump by click on the spacebar
@@ -70,6 +73,11 @@ public class Detective : MonoBehaviour
 
         anim.SetFloat("speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x)); //bna5od el velocity bta3t el player w nohtha f el speed
 
+        if (Input.GetKeyDown(Return))
+        {
+            Shoot();
+        }
+
     }
     void FixedUpdate()
     {
@@ -82,5 +90,9 @@ public class Detective : MonoBehaviour
     void Jump()
     {
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+    }
+    public void Shoot()
+    {
+        Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
     }
 }
