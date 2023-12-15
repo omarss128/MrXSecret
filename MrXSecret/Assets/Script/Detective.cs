@@ -93,6 +93,17 @@ public class Detective : MonoBehaviour
     }
     public void Shoot()
     {
-        Instantiate(Bullet, FirePoint.position, FirePoint.rotation);
+        GameObject newBullet = Instantiate(Bullet, new Vector3(FirePoint.position.x, FirePoint.position.y, 0), FirePoint.rotation);
+
+        // Debug information
+        Debug.Log("Bullet instantiated at position: " + newBullet.transform.position);
+
+        // Check if the Bullet prefab has a SpriteRenderer component
+        SpriteRenderer bulletRenderer = newBullet.GetComponent<SpriteRenderer>();
+        if (bulletRenderer == null)
+        {
+            Debug.LogError("Bullet prefab is missing a SpriteRenderer component.");
+        }
     }
+
 }

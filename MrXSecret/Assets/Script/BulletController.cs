@@ -1,33 +1,44 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
+    //public Animator animator;
     public float speed;
-    // Start is called before the first frame update
     void Start()
     {
-        Detective Player;
-        Player = FindObjectOfType<Detective>();
-        if (Player.transform.localScale.x < 0)
+      //  animator = GetComponent<Animator>();
+
+        Detective player;
+
+        player = FindObjectOfType<Detective>();
+
+        if (player.transform.localScale.x < 0)
         {
-            speed = -speed;
+            
+            speed = -speed; 
             transform.localScale = new Vector3(-(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
+        StartCoroutine(DestroyAfterDelay(5f)); 
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);  
+        GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+        StartCoroutine(DestroyAfterDelay(5f));
     }
-    void OnTriggerEnter2D(Collider2D other)
+    private IEnumerator DestroyAfterDelay(float delay)
     {
-        if (other.tag == "Enemy")
-        {
-            Destroy(other.gameObject);
-            Destroy(this.gameObject);
-        }
-            }
+        yield return new WaitForSeconds(delay);
+
+        Destroy(gameObject);
+    }
+
+    
+
+
+
 }
