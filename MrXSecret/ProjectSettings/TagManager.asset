@@ -46,7 +46,7 @@ TagManager:
     locked: 1
   - name: Platform
     uniqueID: 3702126193
-    locked: 0
+    locked: 1
   - name: Boat
     uniqueID: 3289894091
     locked: 0
