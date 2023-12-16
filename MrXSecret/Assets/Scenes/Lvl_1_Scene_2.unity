@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 463351286}
   - component: {fileID: 463351285}
   - component: {fileID: 463351289}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Lvl 1 Scene 2 Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - FirePoint
   - Bullet
+  - FinalBoss
   layers:
   - Default
   - TransparentFX
