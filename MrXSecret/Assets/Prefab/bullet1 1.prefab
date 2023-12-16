@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3582447177117836691}
   m_Layer: 0
   m_Name: bullet1 1
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00087127835, y: 0.016196989}
+  m_Offset: {x: -0.09184462, y: 0.13218498}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25370473, y: 0.18345518}
+  m_Size: {x: 3.1006289, y: 3.9723978}
   m_EdgeRadius: 0
 --- !u!114 &3582447177117836691
 MonoBehaviour:
@@ -146,5 +146,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2bebe1b69f8ae418c2826fb517fd76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   speed: 5
