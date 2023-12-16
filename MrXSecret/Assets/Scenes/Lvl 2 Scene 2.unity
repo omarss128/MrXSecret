@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 48066019}
   - component: {fileID: 48066021}
   m_Layer: 3
-  m_Name: pngwing.com_7
+  m_Name: Bridge 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48066018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.95, y: -2.44, z: 0}
+  m_LocalPosition: {x: -7.33, y: -2.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 153610178}
   - component: {fileID: 153610180}
   m_Layer: 3
-  m_Name: pngwing.com_5
+  m_Name: Platform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,7 +369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153610177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.432, y: -3.472, z: 0}
+  m_LocalPosition: {x: -9.88, y: -3.41, z: 0}
   m_LocalScale: {x: 1.2017922, y: 0.97100407, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -412,6 +412,8 @@ GameObject:
   m_Component:
   - component: {fileID: 166298952}
   - component: {fileID: 166298951}
+  - component: {fileID: 166298954}
+  - component: {fileID: 166298953}
   m_Layer: 6
   m_Name: level 2 scene 2
   m_TagString: Untagged
@@ -479,13 +481,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166298950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0075, y: 0.2317, z: 0}
-  m_LocalScale: {x: 1.1910896, y: 0.9637, z: 1}
+  m_LocalPosition: {x: 0.0075, y: -0.0108, z: 0}
+  m_LocalScale: {x: 1.2400262, y: 0.9359157, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &166298953
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166298950}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.460619, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.67}
+    newSize: {x: 19.2, y: 10.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.27876282, y: 10.67}
+  m_EdgeRadius: 0
+--- !u!61 &166298954
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166298950}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.447939, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.67}
+    newSize: {x: 19.2, y: 10.67}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.20276928, y: 10.67}
+  m_EdgeRadius: 0
 --- !u!1 &425112408
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,8 +618,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425112408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.41, y: -0.96, z: 0}
-  m_LocalScale: {x: 1.317216, y: 0.90987563, z: 1}
+  m_LocalPosition: {x: 1.0955, y: -0.9285, z: 0}
+  m_LocalScale: {x: 1.4238207, y: 0.92161304, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -761,8 +815,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776057385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4547, y: -2.7033, z: 0}
-  m_LocalScale: {x: 1.3843648, y: 1.7623568, z: 1}
+  m_LocalPosition: {x: -0.5019, y: -2.8763, z: 0}
+  m_LocalScale: {x: 1.4629545, y: 1.6292988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -894,7 +948,7 @@ GameObject:
   - component: {fileID: 1050341504}
   - component: {fileID: 1050341506}
   m_Layer: 3
-  m_Name: pngwing.com_5 (1)
+  m_Name: Platform 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -960,7 +1014,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050341503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.018, y: -3.884, z: 0}
+  m_LocalPosition: {x: 9.4, y: -3.884, z: 0}
   m_LocalScale: {x: 1.5380841, y: 0.701167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1062,7 +1116,7 @@ GameObject:
   - component: {fileID: 1587356408}
   - component: {fileID: 1587356410}
   m_Layer: 3
-  m_Name: pngwing.com_8
+  m_Name: Bridge 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1128,7 +1182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587356407}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.78, y: -2.43, z: 0}
+  m_LocalPosition: {x: -5.12, y: -2.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1271,7 +1325,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.8
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1309,6 +1363,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6849459043301074480, guid: 55c5cc0ed73b1c14ea8ba267293b99e4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ee76d38ae9f6824cb0ebe7618b689f9, type: 3}
     - target: {fileID: 6849459043301074481, guid: 55c5cc0ed73b1c14ea8ba267293b99e4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1357,7 +1415,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishPoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6849459043301074495, guid: 55c5cc0ed73b1c14ea8ba267293b99e4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 55c5cc0ed73b1c14ea8ba267293b99e4, type: 3}
 --- !u!1 &2076631882
 GameObject:
@@ -1371,7 +1430,7 @@ GameObject:
   - component: {fileID: 2076631883}
   - component: {fileID: 2076631885}
   m_Layer: 3
-  m_Name: pngwing.com_9
+  m_Name: Bridge 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1437,7 +1496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076631882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.89, y: -2.47, z: 0}
+  m_LocalPosition: {x: -6.2, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
