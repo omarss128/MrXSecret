@@ -10,6 +10,7 @@ public class BossWeaponScript : MonoBehaviour
 	public LayerMask attackMask;
 
 
+
 	public void Attack()
 	{
 		Vector3 pos = transform.position;
@@ -20,6 +21,7 @@ public class BossWeaponScript : MonoBehaviour
 		if (colInfo != null)
 		{
 			colInfo.GetComponent<PlayerStats>().TakeDamage(attackDamage);
+
 		}
 	}
 

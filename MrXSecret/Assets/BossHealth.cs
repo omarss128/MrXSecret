@@ -10,6 +10,7 @@ public class BossHealth : MonoBehaviour
 	public GameObject deathEffect;
 
 	public bool isInvulnerable = false;
+	public AudioClip DeathSound;
 
 	public void TakeDamage(int damage)
 	{
@@ -21,6 +22,7 @@ public class BossHealth : MonoBehaviour
 		if (health <= 0)
 		{
 			Die();
+			SoundManager.instance.PlaySound(DeathSound);
 		}
 	}
 
