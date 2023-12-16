@@ -13,6 +13,7 @@ public class Detective : MonoBehaviour
     public KeyCode Return;
     public Transform FirePoint;
     public GameObject Bullet;
+    public AudioClip BulletSound;
 
     public bool isFacingRight; //check if the character facing right
     public KeyCode Spacebar; //character will jump by click on the spacebar
@@ -93,6 +94,7 @@ public class Detective : MonoBehaviour
     }
     public void Shoot()
     {
+        SoundManager.instance.PlaySound(BulletSound);
         GameObject newBullet = Instantiate(Bullet, new Vector3(FirePoint.position.x, FirePoint.position.y, 0), FirePoint.rotation);
 
         // Debug information

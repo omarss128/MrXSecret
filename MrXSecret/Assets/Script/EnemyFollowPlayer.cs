@@ -15,6 +15,7 @@ public class EnemyFollowPlayer : MonoBehaviour
     public GameObject bulletParent;
     public int maxHealth = 100;
     private int currentHealth;
+    public AudioClip BulletSound;
 
     void Start()
     {
@@ -38,6 +39,7 @@ public class EnemyFollowPlayer : MonoBehaviour
 
     void ShootBullet(Vector2 direction)
     {
+        SoundManager.instance.PlaySound(BulletSound);
         if (bulletPrefab != null && bulletSpawnPoint != null)
         {
             // Instantiate the bullet at the enemy's position

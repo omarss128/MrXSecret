@@ -9,6 +9,7 @@ public class BossWeaponScript : MonoBehaviour
 	public float attackRange = 1f;
 	public LayerMask attackMask;
 
+
 	public void Attack()
 	{
 		Vector3 pos = transform.position;

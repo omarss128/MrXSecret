@@ -6,6 +6,8 @@ public class Boss_Run : StateMachineBehaviour
 {
     public float speed = 2.5f;
     public float attackRange = 3f;
+    public AudioClip AttackSound;
+
     Transform player;
     Rigidbody2D rb;
     Boss boss;
@@ -27,6 +29,7 @@ public class Boss_Run : StateMachineBehaviour
         if (Vector2.Distance(player.position,rb.position)<=attackRange)
         {
             animator.SetTrigger("Attack");
+           SoundManager.instance.PlaySound(AttackSound);
         }
     }
 
