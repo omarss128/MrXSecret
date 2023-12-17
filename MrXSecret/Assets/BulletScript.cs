@@ -5,23 +5,41 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     public int damage = 10; // Adjust the damage value as needed
-    GameObject target;
-    public float speed;
-    Rigidbody2D bulletRB;
+    public float speed = 5f;
+
+    private Transform player;
 
     void Start()
     {
-        bulletRB = GetComponent<Rigidbody2D>();
-        //target = GameObject.FindGameObjectWithTag("player");
-        Vector2 moveDir = (target.transform.position - transform.position).normalized * speed;
-        bulletRB.velocity = new Vector2(moveDir.x, moveDir.y);
-        Destroy(this.gameObject, 2);
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        if (player == null)
+        {
+            Debug.LogError("Player object not found.");
+            Destroy(this.gameObject);
+        }
+
+        // Set the bullet's velocity towards the player
+        Vector2 direction = (player.position - transform.position).normalized;
+        GetComponent<Rigidbody2D>().velocity = direction * speed;
+
+        Destroy(this.gameObject, 2); // Adjust the lifetime of the bullet
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "player")
+        if (other.tag == "Player")
         {
-            Destroy(other.gameObject);
+            // Assuming the player has a health component
+            PlayerStats playerHealth = other.GetComponent<PlayerStats>();
+
+            if (playerHealth != null)
+            {
+                // Damage the player
+                playerHealth.TakeDamage(damage);
+            }
+
+            // Destroy the bullet
             Destroy(this.gameObject);
         }
     }

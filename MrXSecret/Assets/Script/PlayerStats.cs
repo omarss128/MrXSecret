@@ -1,14 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using UnityEngige.UI;
+using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     //public int Image healthBar;
     public int health = 6;
     public int lives = 3;
+    public Image healthBar;
+    //// playerstats.cs
+      public int maxhealth;
+       public int currenthealth;
+
+        // Other properties and methods for player stats can go here
+    
+
     public float flickerDura1on = 0.1f;
     private float flickerTime = 0f;
+  //  public Image healthBar;
     private SpriteRenderer spriteRenderer;
     public bool isImmune = false;
     public float immunityDura1on = 1.5f; //el w2t ely sonic 3mal ynor w ytfy
@@ -35,6 +44,8 @@ public class PlayerStats : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
+        this.health = health - damage;
+        healthBar.fillAmount = this.health / 3f;
         //this.health = health - damage;
         //healthBar.fillAmount = this.health / 3f;
         if (this.isImmune == false)
@@ -55,6 +66,7 @@ public class PlayerStats : MonoBehaviour
             }
             Debug.Log("Player Health : " + this.health.ToString());
             Debug.Log("Player Lives : " + this.lives.ToString());
+            
         }
         PlayHitReac1on();
     }

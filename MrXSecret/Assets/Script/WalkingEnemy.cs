@@ -1,43 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-public class WalkingEnemy : EnemyController
-{
-    private bool canFlip = true; // Flag to control flipping
+//using system.collections;
+//using system.collections.generic;
+//using unityengine;
+//public class walkingenemy : enemycontroller
+//{
+//    private bool canflip = true; // flag to control flipping
 
-    void FixedUpdate()
-    {
-        if (isFacingRight)
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
-        }
-        else
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
-        }
-    }
+//    void fixedupdate()
+//    {
+//        if (isfacingright)
+//        {
+//            getcomponent<rigidbody2d>().velocity = new vector2(maxspeed, getcomponent<rigidbody2d>().velocity.y);
+//        }
+//        else
+//        {
+//            getcomponent<rigidbody2d>().velocity = new vector2(-maxspeed, getcomponent<rigidbody2d>().velocity.y);
+//        }
+//    }
 
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider != null && canFlip)
-        {
-            if (collider.CompareTag("Wall") || collider.CompareTag("Enemy"))
-            {
-                Flip();
-                StartCoroutine(FlipCooldown());
-            }
-            else if (collider.CompareTag("Player"))
-            {
-                Debug.Log("Player collision");
-                FindObjectOfType<PlayerStats>().TakeDamage(damage);
-            }
-        }
-    }
+//    void ontriggerenter2d(collider2d collider)
+//    {
+//        if (collider != null && canflip)
+//        {
+//            if (collider.comparetag("wall") || collider.comparetag("enemy"))
+//            {
+//                flip();
+//                startcoroutine(flipcooldown());
+//            }
+//            else if (collider.comparetag("player"))
+//            {
+//                debug.log("player collision");
+//                findobjectoftype<playerstats>().takedamage(damage);
+//            }
+//        }
+//    }
 
-    IEnumerator FlipCooldown()
-    {
-        canFlip = false;
-        yield return new WaitForSeconds(1.0f); // Adjust the cooldown duration as needed
-        canFlip = true;
-    }
-}
+//    ienumerator flipcooldown()
+//    {
+//        canflip = false;
+//        yield return new waitforseconds(1.0f); // adjust the cooldown duration as needed
+//        canflip = true;
+//    }
+//}

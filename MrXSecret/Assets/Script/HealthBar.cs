@@ -1,30 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+//using system.collections;
+//using system.collections.generic;
+//using unityengine;
+//using unityengine.ui;
 
-public class HealthBar : MonoBehaviour
-{
-    private float _maxHealth=100;
-    private float _currentHealth;
-    [SerializeField] private Image _healthBarFill;
+//public class healthbar : monobehaviour
+//{
+//    private float _maxhealth=100;
+//    private float _currenthealth;
+//    [serializefield] private image _healthbarfill;
 
-    void Start()
-    {
-        _currentHealth = _maxHealth;
+//    void start()
+//    {
+//        _currenthealth = _maxhealth;
         
-    }
+//    }
 
     
-    public void UpdateHealth(float amount)
-    {
-        _currentHealth += amount;
-        UpdateHealthBar();
-    }
-    private void UpdateHealthBar()
-    {
-        float targetFillAmount = _currentHealth / _maxHealth;
-        _healthBarFill.fillAmount = targetFillAmount;
-    }
-}
+//    public void updatehealth(float amount)
+//    {
+//        _currenthealth += amount;
+//        updatehealthbar();
+//    }
+//    private void updatehealthbar()
+//    {
+//        float targetfillamount = _currenthealth / _maxhealth;
+//        _healthbarfill.fillamount = targetfillamount;
+//    }
+//}
 
