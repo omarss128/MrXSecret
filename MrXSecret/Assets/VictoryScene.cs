@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+/*using system.collections;
+using system.collections.generic;
+using unityengine;
+using unityengine.scenemanagement;
 
-public class VictoryScene : MonoBehaviour
+public class victoryscene : monobehaviour
 {
-    public void PlayGame()
+    public void playgame()
     {
-        SceneManager.LoadSceneAsync(2);
+        scenemanager.loadsceneasync(1);
     }
 }
+*/
