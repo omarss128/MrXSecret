@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     //public int Image healthBar;
     public int health = 6;
     public int lives = 3;
-    public Image healthBar;
+   // public Image healthBar;
     //// playerstats.cs
-      public int maxhealth;
-       public int currenthealth;
+    //  public int maxhealth;
+      // public int currenthealth;
 
         // Other properties and methods for player stats can go here
     
@@ -44,8 +44,8 @@ public class PlayerStats : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        this.health = health - damage;
-        healthBar.fillAmount = this.health / 3f;
+        //this.health = health - damage;
+        //healthBar.fillAmount = this.health / 3f;
         //this.health = health - damage;
         //healthBar.fillAmount = this.health / 3f;
         if (this.isImmune == false)

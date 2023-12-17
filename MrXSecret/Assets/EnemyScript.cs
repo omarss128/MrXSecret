@@ -7,7 +7,7 @@ public class EnemyScript : MonoBehaviour
     public float shootCooldown = 2f;
     public Transform shootPoint;
     public GameObject bulletPrefab;
-
+    public AudioClip BulletSound;
     private GameObject player;
 
     void Start()
@@ -35,8 +35,10 @@ public class EnemyScript : MonoBehaviour
 
     IEnumerator ShootRoutine()
     {
+       
         while (true)
         {
+            SoundManager.instance.PlaySound(BulletSound);
             yield return new WaitForSeconds(shootCooldown);
 
             // Shoot at the player
