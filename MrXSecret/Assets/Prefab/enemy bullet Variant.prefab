@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 482869926673143084, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
+      propertyPath: m_Size.x
+      value: 11.281646
+      objectReference: {fileID: 0}
+    - target: {fileID: 482869926673143084, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
+      propertyPath: m_Size.y
+      value: 9.332485
+      objectReference: {fileID: 0}
+    - target: {fileID: 482869926673143084, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.19313192
+      objectReference: {fileID: 0}
+    - target: {fileID: 482869926673143084, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.96539354
+      objectReference: {fileID: 0}
     - target: {fileID: 2136627298826553409, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -61,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6636645767177168234, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
       propertyPath: m_Name
-      value: enemy bullet
+      value: enemy bullet Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d72fa2a226453f4fa66ba9dcda78e74, type: 3}
